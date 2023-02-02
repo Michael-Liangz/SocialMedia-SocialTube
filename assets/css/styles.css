@@ -1,0 +1,71 @@
+/* TODO ======================= GOOGLE FONTS ======================= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@400;500;600;700&display=swap");
+
+/* TODO ======================= BASE ======================= */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+img {
+  cursor: pointer;
+}
+
+/* TODO ======================= NAV ======================= */
+nav {
+  padding: 10px 2%;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left .menu-icon {
+  width: 22px;
+  margin-right: 25px;
+}
+
+.nav-left .logo,
+.nav-left i {
+  display: inline-flex;
+  width: 130px;
+}
+
+.nav-left .logo {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 30px;
+  color: black;
+}
+
+.nav-left i {
+  color: red;
+  font-size: 40px;
+}
+
+.nav-right img {
+  width: 25px;
+  margin-right: 25px;
+}
+
+.nav-right .user-icon {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 0;
+}
