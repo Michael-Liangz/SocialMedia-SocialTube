@@ -94,3 +94,73 @@ nav {
 .nav-middle .search-box img {
   width: 15px;
 }
+
+/* TODO ==================== SIDEBAR ==================== */
+.sidebar {
+  background: #fff;
+  width: 16%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  padding-left: 2%;
+  padding-top: 80px;
+}
+
+.sidebar hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  width: 85%;
+}
+
+.subscribe-list h3 {
+  font-size: 13px;
+  margin: 20px 0;
+  color: #5a5a5a;
+}
+
+.subscribe-list a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+.subscribe-list a img {
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.shortcut-links a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+.shortcut-links a:first-child {
+  color: #ed3833;
+}
+
+.shortcut-links a img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+/* * Click Sidebar Icon (Sebelah logo SocialTube) */
+.small-sidebar {
+  width: 4%;
+}
+
+.small-sidebar a p,
+.small-sidebar h3 {
+  display: none;
+}
+
+.small-sidebar hr {
+  width: 80%;
+  margin-bottom: 25px;
+}
