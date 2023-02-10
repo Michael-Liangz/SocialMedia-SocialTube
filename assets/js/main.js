@@ -1,9 +1,9 @@
 // TODO ==================== NAV ====================
 const menuIcon = document.querySelector(".menu-icon");
 const sidebar = document.querySelector(".sidebar");
-const subscribeList = document.querySelector(".subscribe-list");
+const container = document.querySelector(".container");
 
 menuIcon.onclick = function () {
   sidebar.classList.toggle("small-sidebar");
-  // subscribeList.style.display = "none";
+  container.classList.toggle("large-container");
 };
