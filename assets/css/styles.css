@@ -435,6 +435,7 @@ nav {
 
 .side-video-list img {
   width: 100%;
+  border-radius: 5%;
 }
 
 .side-video-list .small-thumbnail {
@@ -511,7 +512,28 @@ nav {
     margin-top: 15px;
   }
 
+  .old-comment p,
+  .old-comment .comment-action span,
+  .old-comment a {
+    font-size: 13px;
+  }
+
+  .old-comment .comment-action img {
+    width: 15px;
+  }
+
   .right-sidebar {
     margin-top: 15px;
+  }
+
+  .right-sidebar .side-video-list .small-thumbnail {
+    flex-basis: 39%;
+  }
+
+  .right-sidebar .side-video-list .vid-info a {
+    font-size: 13px;
+  }
+  .right-sidebar .side-video-list .vid-info p {
+    font-size: 10px;
   }
 }
