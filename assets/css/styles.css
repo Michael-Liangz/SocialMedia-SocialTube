@@ -141,6 +141,11 @@ nav {
   margin-right: 20px;
 }
 
+.subscribe-list a:hover,
+.shortcut-links a:hover {
+  background: #f3eded;
+}
+
 .shortcut-links a {
   display: flex;
   align-items: center;
