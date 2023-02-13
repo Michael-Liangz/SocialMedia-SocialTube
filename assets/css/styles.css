@@ -204,6 +204,24 @@ nav {
   margin-top: 15px;
 }
 
+.container button .all-video {
+  justify-content: center;
+  color: #0000ff;
+}
+
+.container .load-more-video {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  color: #0000ff;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.container .load-more-video:hover {
+  font-weight: bolder;
+}
+
 .vid-list .thumbnail {
   width: 100%;
   border-radius: 5px;
@@ -419,7 +437,10 @@ nav {
 .old-comment a {
   font-size: 14px;
   color: #0000ff;
-  font-weight: 500;
+}
+
+.old-comment a:hover {
+  font-weight: bolder;
 }
 
 .vid-description .all-comment {
@@ -427,7 +448,10 @@ nav {
   justify-content: center;
   color: #0000ff;
   font-size: 15px;
-  font-weight: 500;
+}
+
+.vid-description .all-comment:hover {
+  font-weight: bolder;
 }
 
 /* TODO ==================== RIGHT SIDEBAR ==================== */
