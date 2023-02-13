@@ -245,6 +245,7 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 /* TODO ==================== PLAY VIDEO / LEFT SIDEBAR ==================== */
 .play-video {
   flex-basis: 68%;
@@ -422,6 +423,14 @@ nav {
   font-weight: 500;
 }
 
+.vid-description .all-comment {
+  display: flex;
+  justify-content: center;
+  color: #0000ff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 /* TODO ==================== RIGHT SIDEBAR ==================== */
 .right-sidebar {
   flex-basis: 31%;
@@ -448,6 +457,7 @@ nav {
 
 /* TODO ==================== MEDIA QUERIES ==================== */
 @media (max-width: 900px) {
+  /* TODO ======================= NAV ======================= */
   .menu-icon {
     display: none;
   }
@@ -478,11 +488,8 @@ nav {
     display: none;
   }
 
+  /* TODO ==================== PLAY VIDEO / LEFT SIDEBAR ==================== */
   .play-video {
-    flex-basis: 100%;
-  }
-
-  .right-sidebar {
     flex-basis: 100%;
   }
 
@@ -522,8 +529,14 @@ nav {
     width: 15px;
   }
 
+  .vid-description .all-comment {
+    font-size: 14px;
+  }
+
+  /* TODO ==================== RIGHT SIDEBAR ==================== */
   .right-sidebar {
     margin-top: 15px;
+    flex-basis: 100%;
   }
 
   .right-sidebar .side-video-list .small-thumbnail {
