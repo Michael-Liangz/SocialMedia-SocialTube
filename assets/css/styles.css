@@ -452,6 +452,7 @@ nav {
 .old-comment a {
   font-size: 14px;
   color: #0000ff;
+  cursor: pointer;
 }
 
 .old-comment a:hover {
@@ -463,6 +464,7 @@ nav {
   justify-content: center;
   color: #0000ff;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .vid-description .all-comment:hover {
